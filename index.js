@@ -25,6 +25,7 @@ function superbowWin(record) {
 superbowWin(record)
 
 function superbowWin = (record) => {
-  let result = record.find()
+  let result = record.find(record => record.result === "W")
+  return !!result ? result.year : undefined
 }
 
