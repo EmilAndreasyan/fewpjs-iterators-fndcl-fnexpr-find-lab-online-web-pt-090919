@@ -11,7 +11,7 @@ const record = [
   //...
 ]
 
-function superbowWin = (record) => {
+superbowWin = (record) => {
   let result = record.find(line => line.result === "W")
   return !!result ? result.year : undefined
 }
