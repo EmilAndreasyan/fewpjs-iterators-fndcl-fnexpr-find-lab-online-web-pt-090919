@@ -24,3 +24,7 @@ function superbowWin(record) {
 }
 superbowWin(record)
 
+function superbowWin = (record) => {
+  let result = record.find()
+}
+
